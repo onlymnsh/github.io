@@ -2,6 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
+    "package_name": "com.ndmc.pms.visitor.debug",
     "sha256_cert_fingerprints":
     ["98:B4:59:80:6D:53:F0:2A:E1:8F:86:84:BF:50:CE:D8:F6:A7:FD:61:AD:44:1A:22:D5:D9:45:D7:49:04:BA:4B"]
   }
