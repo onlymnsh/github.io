@@ -7,11 +7,15 @@
     
 <script type="text/javascript">
     console.log("Hiii");
+    alert("Hiii");
     navigator.getInstalledRelatedApps().then(relatedApps => {
   for (let app of relatedApps) {
     console.log(app.platform);
     console.log(app.url);
     console.log(app.id);
+         alert(app.platform);
+    alert(app.url);
+    alert(app.id);
   }
 });
 function test2(){
