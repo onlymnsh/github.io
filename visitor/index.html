@@ -8,7 +8,8 @@
 <script type="text/javascript">
     console.log("Hiii");
     alert("Hiii");
-    alert(navigator);
+    alert(navigator.getInstalledRelatedApps());
+    alert(navigator.appName);
     navigator.getInstalledRelatedApps().then(relatedApps => {
   for (let app of relatedApps) {
     console.log(app.platform);
