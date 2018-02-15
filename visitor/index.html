@@ -8,8 +8,11 @@
        alert("Test");
    }
 $(document).ready(function(){
-  $('#link').trigger('click');
+   setTimeout(function() {
+ $('#link').trigger('click');
   console.log("HI..........");
+   }, 4e3);
+ 
 });
 </script>
 <ul>
