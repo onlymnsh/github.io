@@ -3,16 +3,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
-<script>
-   function message(){
-       alert("Test");
-   }
-$(document).ready(function(){
-   setTimeout(function() {
- $('#link').trigger('click');
-  console.log("HI..........");
-   }, 4e3);
- 
+<script type="text/javascript">
+$(function(){
+    window.location.href = $('link').attr('href');
 });
 </script>
 <ul>
