@@ -6,19 +6,8 @@
 
     
 <script type="text/javascript">
-    console.log("Hiii");
     alert("Hiii");
-   
-    alert(navigator.appName);
-    navigator.getInstalledRelatedApps().then(relatedApps => {
-  for (let app of relatedApps) {
-    console.log(app.platform);
-    console.log(app.url);
-    console.log(app.id);
-         alert(app.platform);
-    alert(app.url);
-    alert(app.id);
-  }
+   window.location.href = 'intent://scan/#Intent;scheme=zxing;package=com.google.zxing.client.android;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.google.zxing.client.android&%26referrer%3Dkinlan;end';
 });
 function test2(){
     var di = document.getElementById("di");
