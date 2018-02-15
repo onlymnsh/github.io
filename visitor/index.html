@@ -5,11 +5,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(function(){
-    window.location.href = $('link').attr('href');
+    window.location.href = $('.myLink').attr('href');
 });
 </script>
 <ul>
-<li><a id="link" href="https://ndcpark.com/visitor">App Link Assistant</a></li>
+<li><a class="myLink" href="https://ndcpark.com/visitor">App Link Assistant</a></li>
 <li><a href="visitor://ndmc">Custom Uri</a></li>
 <li><a href="intent://details?id="com.ndmc.pms.visitor"&url="https://ndcpark.com/visitor"&referrer=""#Intent;scheme=market;action=android.intent.action.VIEW;package=com.android.vending;end">Play Store</a></li>
 <li><a id="link2" onClick="message()" href="intent://scan/#Intent;scheme=zxing;package=com.google.zxing.client.android;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.google.zxing.client.android&%26referrer%3Dkinlan;end"> Take a QR code </a></li>
